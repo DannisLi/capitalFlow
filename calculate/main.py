@@ -5,7 +5,7 @@ import pymysql
 import pickle
 import numpy as np
 from multiprocessing import Pool
-from capitalFlow import get_cf_only_margin as get_cf
+from capitalFlow import get_cf_only_margin2 as get_cf
 
 # 线程总数量
 n = 60
@@ -53,7 +53,7 @@ def solve(accounts):
                 except:
                     print ('cf < 0 !')
                     continue
-                cursor.execute("insert into capital_flow.only_margin values (%s,%s,%s)",
+                cursor.execute("insert into capital_flow.only_margin2 values (%s,%s,%s)",
                                (account, day, pickle.dumps(cf)))
             conn.commit()
     conn.close()

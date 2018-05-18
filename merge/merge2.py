@@ -14,9 +14,9 @@ db_config = {
 }
 
 vari_list = [
-    'a', 'ag', 'al', 'au', 'b', 'bb', 'bu', 'c', 'cf', 'cu', 'fb', 'fg', 'fu', 'i', 
-    'if', 'j', 'jd', 'jm', 'jr', 'l', 'm', 'me', 'oi', 'p', 'pb', 'pm', 'rb', 'ri', 
-    'rm', 'rs', 'ru', 'sr', 'ta', 'tc', 'tf', 'v', 'wh', 'wr', 'y', 'zn'
+    'a', 'ag', 'al', 'au', 'b', 'bb', 'bu', 'c', 'cf', 'cu', 'fb', 'fg', 'fu', 'i', 'j', 'jd', 
+    'jm', 'jr', 'l', 'm', 'oi', 'p', 'pb', 'pm', 'rb', 'ri', 'rm', 'rs', 'ru', 'sr', 'ta', 'v', 
+    'wh', 'wr', 'y', 'zn'
 ]
 vari_num = len(vari_list)
 
